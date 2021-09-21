@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-21 12:24:26
+ */
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -30,7 +36,7 @@ const MobileHeader = ({ children, backArrow, style, show, currentUser }) => {
       ) : (
         <Fragment>
           <h3 style={{ fontSize: '2.5rem' }} className="heading-logo">
-            Instaclone
+            FakeGram
           </h3>
           <div style={{ gridColumn: '-1' }}>
             <Button

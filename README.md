@@ -1,4 +1,4 @@
-# Instaclone
+# FakeGram
 
 > An instagram clone created with MongoDB, Express, React, and Socket.io
 
@@ -59,7 +59,7 @@ MODERATECONTENT_API_KEY= // Free API key from https://moderatecontent.com
 $ npm run dev
 ```
 
-The app should launch automatically, enjoy playing around 😄
+The app should launch automatically
 
 ---
 
@@ -76,7 +76,7 @@ The app should launch automatically, enjoy playing around 😄
 > Set up required environment variables
 
 ```javascript
-MONGO_URI= // mongodb://mongo:27017/instaclone
+MONGO_URI= // MongoDB Connect String from Atlas
 JWT_SECRET= // random string: j2390jf09kjsalkj4r93
 CLOUDINARY_API_KEY= // Cloudinary API key
 CLOUDINARY_API_SECRET= // Cloudinary API secret
@@ -97,6 +97,6 @@ MODERATECONTENT_API_KEY= // Free API key from https://moderatecontent.com
 $ docker-compose up
 ```
 
-Docker will configure the rest for you, the project should be available on port 9000 unless you specified otherwise 😄
+Docker will configure the rest for you, the project should be available on port 9000 unless you specified otherwise
 
 ---

@@ -38,7 +38,7 @@ $ npm install && cd client && npm install
 > Set up required environment variables
 
 ```javascript
-MONGO_URI= // mongodb+srv://dbAdmin:dbAdmin@instagramclone.5nbnt.mongodb.net/test
+MONGO_URI= // MongoDB connect string from Atlas
 JWT_SECRET= // random string: j2390jf09kjsalkj4r93
 CLOUDINARY_API_KEY= // Cloudinary API key
 CLOUDINARY_API_SECRET= // Cloudinary API secret

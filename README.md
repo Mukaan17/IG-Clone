@@ -59,7 +59,7 @@ MODERATECONTENT_API_KEY= // Free API key from https://moderatecontent.com
 $ npm run dev
 ```
 
-The app should launch automatically, enjoy playing around 😄
+The app should launch automatically
 
 ---
 
@@ -97,6 +97,6 @@ MODERATECONTENT_API_KEY= // Free API key from https://moderatecontent.com
 $ docker-compose up
 ```
 
-Docker will configure the rest for you, the project should be available on port 9000 unless you specified otherwise 😄
+Docker will configure the rest for you, the project should be available on port 9000 unless you specified otherwise
 
 ---

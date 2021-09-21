@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-21 12:13:56
+ */
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -59,7 +65,7 @@ const SignUpCard = ({ signUpStart, error, fetching }) => {
   return (
     <Fragment>
       <Card className="form-card">
-        <h1 className="heading-logo text-center">Instaclone</h1>
+        <h1 className="heading-logo text-center">FakeGram</h1>
         <h2
           style={{ fontSize: '1.7rem' }}
           className="heading-2 color-grey text-center"

@@ -94,7 +94,7 @@ MODERATECONTENT_API_KEY= // Free API key from https://moderatecontent.com
 > In the root directory start the docker container by using the docker-compose file using the following command
 
 ```shell
-$ docker-compose up
+$ docker compose up
 ```
 
 Docker will configure the rest for you, the project should be available on port 9000 unless you specified otherwise

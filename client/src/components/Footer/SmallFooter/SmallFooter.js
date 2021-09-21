@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-21 11:43:22
+ */
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -26,18 +32,6 @@ const SmallFooter = () => {
           </Link>
         ))}
       </div>
-      <h5
-        className="heading-5 color-grey-2 footer--small__copyright mt-lg font-bold"
-        style={{ textTransform: 'uppercase ' }}
-      >
-        Made with{' '}
-        <Icon
-          icon="heart"
-          className="color-grey-2 icon--small"
-          style={{ margin: '0 5px' }}
-        />{' '}
-        by Sander Moen
-      </h5>
     </footer>
   );
 };

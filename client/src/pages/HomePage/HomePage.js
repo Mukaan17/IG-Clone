@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-21 11:44:50
+ */
 import React, { useEffect, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
@@ -30,7 +36,7 @@ const HomePage = ({
   fetching,
 }) => {
   useEffect(() => {
-    document.title = `Instaclone`;
+    document.title = `FakeGram`;
     fetchFeedPostsStart(token);
     return () => {
       clearPosts();

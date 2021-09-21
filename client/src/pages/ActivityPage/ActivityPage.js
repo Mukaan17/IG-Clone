@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-21 11:45:12
+ */
 import React, { Fragment, useEffect } from 'react';
 
 import MobileHeader from '../../components/Header/MobileHeader/MobileHeader';
@@ -5,7 +11,7 @@ import NotificationFeed from '../../components/Notification/NotificationFeed/Not
 
 const ActivityPage = () => {
   useEffect(() => {
-    document.title = 'Instaclone';
+    document.title = 'FakeGram';
   }, []);
 
   return (

@@ -1,3 +1,7 @@
+# @Author: Mukhil Sundararaj
+# @Date:   2021-09-21 10:16:54
+# @Last Modified by:   Mukhil Sundararaj
+# @Last Modified time: 2021-09-21 10:38:25
 version: '3.3'
 
 services:
@@ -5,7 +9,7 @@ services:
     depends_on:
       - mongo
     stdin_open: true
-    container_name: instaclone-backend
+    container_name: fakegram-backend
     restart: always
     build:
       context: .
@@ -19,7 +23,7 @@ services:
     container_name: mongo
     restart: always
     environment:
-      MONGO_INITDB_DATABASE: instaclone
+      MONGO_INITDB_DATABASE: fakegram
     volumes:
       - ~/mongo/data:/data/db
     ports:

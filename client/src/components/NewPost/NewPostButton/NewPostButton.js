@@ -2,7 +2,7 @@
  * @Author: Mukhil Sundararaj
  * @Date:   2021-09-21 10:16:54
  * @Last Modified by:   Mukhil Sundararaj
- * @Last Modified time: 2021-09-23 08:44:14
+ * @Last Modified time: 2021-09-23 09:16:14
  */
 import React, { useState, Fragment, useEffect, useRef } from 'react';
 import { useHistory } from 'react-router-dom';
@@ -42,7 +42,7 @@ const NewPostButton = ({ showModal, hideModal, plusIcon, children, style }) => {
         {children ? (
           children
         ) : (
-          <Icon icon={plusIcon ? 'add-circle-outline' : 'camera-outline'} />
+          <Icon icon={plusIcon ? 'add-circle-outline' : 'add'} />
         )}
       </label>
       <input

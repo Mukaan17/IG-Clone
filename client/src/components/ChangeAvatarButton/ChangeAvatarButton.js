@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:41:14
+ */
 import React, { Fragment, useRef, useEffect } from 'react';
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';

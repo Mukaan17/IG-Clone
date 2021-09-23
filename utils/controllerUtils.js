@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:55
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:55:08
+ */
 const Comment = require('../models/Comment');
 const Notification = require('../models/Notification');
 const User = require('../models/User');

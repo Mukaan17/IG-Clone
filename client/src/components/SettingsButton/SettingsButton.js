@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:39:56
+ */
 import React from 'react';
 import { connect } from 'react-redux';
 import { useHistory } from 'react-router-dom';
@@ -11,7 +17,7 @@ const SettingsButton = ({ showModal, signOut }) => {
   const history = useHistory();
   return (
     <Icon
-      icon="aperture-outline"
+      icon="settings-outline"
       style={{ cursor: 'pointer' }}
       onClick={() => {
         showModal(

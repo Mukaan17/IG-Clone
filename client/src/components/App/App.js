@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:40:58
+ */
 import React, { useEffect, Fragment, Suspense, lazy } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 import { connect } from 'react-redux';

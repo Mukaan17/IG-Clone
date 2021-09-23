@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:54:30
+ */
 const Comment = require('../models/Comment');
 const CommentVote = require('../models/CommentVote');
 const CommentReply = require('../models/CommentReply');

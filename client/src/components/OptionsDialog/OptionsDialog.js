@@ -1,3 +1,9 @@
+/**
+ * @Author: Mukhil Sundararaj
+ * @Date:   2021-09-21 10:16:54
+ * @Last Modified by:   Mukhil Sundararaj
+ * @Last Modified time: 2021-09-23 08:40:00
+ */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useTransition, animated } from 'react-spring';

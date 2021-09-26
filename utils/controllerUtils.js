@@ -2,7 +2,7 @@
  * @Author: Mukhil Sundararaj
  * @Date:   2021-09-21 10:16:55
  * @Last Modified by:   Mukhil Sundararaj
- * @Last Modified time: 2021-09-23 08:55:08
+ * @Last Modified time: 2021-09-26 11:23:05
  */
 const Comment = require('../models/Comment');
 const Notification = require('../models/Notification');
@@ -122,7 +122,7 @@ module.exports.sendEmail = async (to, subject, template) => {
     },
   });
   await transporter.sendMail({
-    from: '"Instaclone Support" <support@instaclone.net>',
+    from: '"FakeGram Support" <support@FakeGram.net>',
     to,
     subject,
     html: template,
@@ -153,7 +153,7 @@ module.exports.sendConfirmationEmail = async (
         confirmationUrl: `${process.env.HOME_URL}/confirm/${confirmationToken}`,
         url: process.env.HOME_URL,
       });
-      await this.sendEmail(email, 'Confirm your instaclone account', html);
+      await this.sendEmail(email, 'Confirm your FakeGram account', html);
     } catch (err) {
       console.log(err);
     }

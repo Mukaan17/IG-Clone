@@ -2,7 +2,7 @@
  * @Author: Mukhil Sundararaj
  * @Date:   2021-09-21 10:16:54
  * @Last Modified by:   Mukhil Sundararaj
- * @Last Modified time: 2021-09-21 11:44:50
+ * @Last Modified time: 2021-09-26 11:59:40
  */
 import React, { useEffect, Fragment } from 'react';
 import { connect } from 'react-redux';
@@ -58,7 +58,7 @@ const HomePage = ({
       <MobileHeader>
         <NewPostButton />
         <h3 style={{ fontSize: '2.5rem' }} className="heading-logo">
-          Instaclone
+          FakeGram
         </h3>
         <Icon icon="paper-plane-outline" />
       </MobileHeader>
